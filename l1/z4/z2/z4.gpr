@@ -1,0 +1,9 @@
+project Z4 is
+   for Object_Dir use "build";
+   for Exec_Dir use "build";
+   package Main is
+      for Main ("iterative") use ("iterative.adb");
+      for Main ("recursive") use ("recursive.adb");
+   end Main;
+
+end Z4;

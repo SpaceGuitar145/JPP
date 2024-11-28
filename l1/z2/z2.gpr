@@ -1,0 +1,9 @@
+project z2 is
+   for Source_Dirs use (".");
+   for Exec_Dir use "build";
+   for Object_Dir use "build";
+   for Main use ("main.adb");
+   package Compiler is
+      for Default_Switches ("Ada") use ("-g");
+   end Compiler;
+end z2;

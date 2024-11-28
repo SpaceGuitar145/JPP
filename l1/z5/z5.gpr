@@ -1,0 +1,7 @@
+project Z5 is
+   for Main use ("main.adb");
+   for Object_Dir use "build";
+   for Exec_Dir use "build";
+end Z5;
+
+-- gprbuild z5.gpr -largs z1/build/CMakeFiles/iterative.dir/iterative.c.o z1/build/CMakeFiles/recursive.dir/recursive.c.o 
